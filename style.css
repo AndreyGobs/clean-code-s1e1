@@ -12,7 +12,7 @@ body {
   text-align: right;
 }
 
-.intro img {
+.intro__img {
   width: 100%;
 }
 
@@ -45,13 +45,13 @@ body {
   display: flex;
 }
 
-ul {
+.todo-list {
   margin: 0;
   padding: 0px;
 }
 
-li,
-h3 {
+.todo-list__item,
+.title {
   list-style: none;
 }
 
@@ -76,7 +76,7 @@ button:hover {
 
 /* Heading */
 
-h3,
+.title,
 label[for="new-task"] {
   color: #333;
   font-weight: 700;
